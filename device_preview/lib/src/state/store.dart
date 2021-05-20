@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:device_frame/device_frame.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart' hide basicLocaleListResolution;
 import 'package:pedantic/pedantic.dart';
 
 import '../../device_preview.dart';
